@@ -1,0 +1,105 @@
+body {
+	color: #000;
+	font: Georgia, "Times New Roman", times, serif;
+	font-size: 90%;
+	/* Pattern made by Andrijana Jarnjak (http://subtlepatterns.com/restaurant-2/) */
+	background: #FFF url(img/restaurant.png);
+	margin: auto;
+	max-width: 960px; 
+}
+
+a {
+	color: #3C3939;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #008000;
+}
+
+.main-story h1 {
+	font-size: 270%;
+	margin-top: 40px;
+	text-align: right;
+}
+
+.header {
+	padding: 0;
+	height: 100px;
+	top: 0;
+}
+
+.nav {
+	padding: 45px 0 0 0;
+	text-align: right;
+	font-size: 150%;
+}
+
+.head {
+  font-family: 'Merriweather', serif;
+  position: relative;
+  color: #008000;
+  font-size: 50px;
+  font-weight: normal;
+  padding: 8px 20px 7px 20px;
+  border-top: 4px solid;
+  border-left: 4px solid;
+  display: inline-block;
+  margin-top: 10px;
+  line-height: 1;
+}
+
+.more-articles img {
+	width: 220px;
+	height: 170px;
+}
+
+.sprite {
+	width: 220px;
+	height: 170px;
+	background-image: url(img/sprite.jpg);
+}
+
+.sprite__apple {
+	background-position: 0 0;
+}
+
+.sprite__berry {
+	background-position: -220px 0;
+}
+
+.sprite__nut {
+	background-position: -440px 0;
+}
+
+.sprite__heart {
+	background-position: -660px 0;
+}
+
+.article {
+	font-size: 140%;
+	font-style: italic;
+	text-align: left;
+}
+
+.picture img {
+	height: 390px;
+	padding: 20px;
+	border-radius: 100px;
+}
+
+.more-articles {
+	border-top: 2px solid #008000;
+	padding: 5px 0 25px 0;
+	font-size: 120%;
+}
+
+.footer {
+	clear: both;
+	padding: 5px 10px;
+	text-align: center;
+}
+
+.test [class*="grid_"] {
+	outline: 1px solid red;
+}
